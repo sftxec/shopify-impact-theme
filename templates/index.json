@@ -235,6 +235,114 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "featured_product_JrULxH": {
+      "type": "featured-product",
+      "blocks": {
+        "liquid_mJkUjc": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_KmGWH6\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <a href=\"#shopify-section-template--24726736666958__custom_liquid_8QMgbq\" style=\"text-decoration: none;\">\n      <div style=\"display: flex; align-items: center; border-radius: 8px; font-family: 'Poppins', sans-serif; width: fit-content; margin: 10px 0; text-align: left;\">\n        <!-- Étoiles -->\n        <img src=\"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg\" alt=\"5 étoiles\" style=\"width: 100px; margin-right: 10px;\">\n        <!-- Texte -->\n        <div style=\"color: #000000; font-size: 14px; font-weight: 500;\">\n          Noté <span style=\"font-weight: 700;\">4.8/5</span> sur <span style=\"font-weight: 700;\">1832 avis&nbsp;</span>\n        </div>\n      </div>\n    </a>\n  </div>\n</div>"
+          }
+        },
+        "vendor_rJFidd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_tm43zU": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_eAFU4F": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_wgCjjL": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_XUMG4P": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_hkiEh8": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_hXNT9f": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_XKQVVk": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_kzG73J": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_bGkU4h": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_QXmrrQ": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "liquid_mJkUjc",
+        "vendor_rJFidd",
+        "title_tm43zU",
+        "badges_eAFU4F",
+        "price_wgCjjL",
+        "rating_XUMG4P",
+        "separator_hkiEh8",
+        "description_hXNT9f",
+        "variant_picker_XKQVVk",
+        "quantity_selector_kzG73J",
+        "buy_buttons_bGkU4h",
+        "pickup_availability_QXmrrQ"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "lunia®-razor-free-exfoliating-glove",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
@@ -243,6 +351,7 @@
     "custom_liquid_M9hJbn",
     "image_with_text_overlay_HzxJa7",
     "custom_liquid_mant4T",
-    "multi_column_t7xfXM"
+    "multi_column_t7xfXM",
+    "featured_product_JrULxH"
   ]
 }
