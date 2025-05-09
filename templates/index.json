@@ -200,13 +200,27 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "item_hRJB97": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Group_207.png",
+            "column_size": "3",
+            "title": "Sylvie A.",
+            "heading_tag": "h4",
+            "content": "<p>“No need to go over it a dozen times—one back-and-forth and you’re done. I only wish I’d discovered this sooner!”</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
         "item_NqW9f8",
         "item_gzKFDP",
         "item_eWhUTz",
-        "item_RKU6Td"
+        "item_RKU6Td",
+        "item_hRJB97"
       ],
       "name": "Multi-column",
       "settings": {
