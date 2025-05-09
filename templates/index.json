@@ -15,14 +15,14 @@
         "heading_XBNM4i": {
           "type": "heading",
           "settings": {
-            "text": "Image with text overlay",
+            "text": "Finally, a shave that’s gentle on your skin.",
             "heading_tag": "h1"
           }
         },
         "richtext_QdzkGp": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Painful waxing and laser treatments that break the bank have finally come to an end.</p>"
           }
         }
       },
@@ -45,61 +45,190 @@
         "overlay_opacity": 30
       }
     },
-    "faq": {
-      "type": "faq",
+    "logo_list_fk9abQ": {
+      "type": "logo-list",
       "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
+        "logo_p4QiNY": {
+          "type": "logo",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_dfd419f5-2c5c-4bf1-9482-f98af4b502b5.svg",
+            "logo_width": 120,
+            "link": ""
           }
         },
-        "166442457738b23caf-1": {
-          "type": "item",
+        "logo_RT6tDL": {
+          "type": "logo",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "logo": "shopify://shop_images/1200px-VOGUE_revista_-_logo.webp",
+            "logo_width": 120,
+            "link": ""
           }
         },
-        "166442457738b23caf-2": {
-          "type": "item",
+        "logo_H6eD6P": {
+          "type": "logo",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "logo": "shopify://shop_images/logo.svg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_WpmhLx": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/stylistmag.png",
+            "logo_width": 120,
+            "link": ""
           }
         }
       },
       "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "logo_p4QiNY",
+        "logo_RT6tDL",
+        "logo_H6eD6P",
+        "logo_WpmhLx"
       ],
+      "name": "Logo list",
       "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "As featured in",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 4,
+        "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "custom_liquid_M9hJbn": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"custom-features-section\" style=\"background-color:#FFFFFF; text-align: center; padding-bottom: 12px;\">\n  \n  <!-- Titre -->\n  <h3 style=\"font-size: 22px; font-weight: 800;\">\n    Why choose Lunia ?\n  </h3>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_HzxJa7": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/lesavantages.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "custom_liquid_mant4T": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"trustpilot-clean\">\n  <h2>They've agreed to share their experience with you</h2>\n  <div class=\"trustpilot-line\">\n    <span class=\"rating-text\">Excellent</span>\n    <strong class=\"rating-score\">4.8 / 5</strong>\n    <img src=\"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg\" alt=\"5 stars\" class=\"stars-img\">\n  </div>\n  <div class=\"trustpilot-bottom\">\n    <span>based on <strong>over 1,800</strong> reviews</span>\n    <img src=\"https://cdn.shopify.com/s/files/1/0891/4871/9429/files/trustpilot-svg_klyne.webp?v=1743809609\" alt=\"Trustpilot\" class=\"tp-logo\" loading=\"lazy\">\n  </div>\n</div>\n\n<style>\n.trustpilot-clean {\n  text-align: center;\n  color: #000;\n  margin-bottom: 0 !important;\n  padding-bottom: 0 !important;\n}\n\n.trustpilot-clean h2 {\n  font-size: 22px;\n  font-weight: 700;\n  margin-bottom: 0.8rem;\n  line-height: 1.5;\n}\n\n.trustpilot-line {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 8px;\n  font-size: 1rem;\n  margin-bottom: 0.5rem;\n}\n\n.rating-text,\n.rating-score {\n  font-size: 1rem;\n  line-height: 1;\n  display: inline-block;\n  vertical-align: middle;\n  margin-top: 2px;\n}\n\n.rating-score {\n  font-weight: bold;\n}\n\n.stars-img {\n  width: 120px;\n  margin-right: 10px;\n  vertical-align: middle;\n}\n\n.trustpilot-bottom {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 8px;\n  font-size: 0.95rem;\n}\n\n.tp-logo {\n  height: 24px;\n  margin-top: -2px;\n}\n\n.trustpilot-badge-below {\n  margin-top: 12px;\n  text-align: center;\n  background-color: #fef9f5;\n  padding: 1.2rem 1rem;\n}\n\n.trustpilot-badge-below img {\n  max-width: 100%;\n  height: auto;\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_t7xfXM": {
+      "type": "multi-column",
+      "blocks": {
+        "item_NqW9f8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Group_206.png",
+            "column_size": "3",
+            "title": "Sabrina B.",
+            "heading_tag": "h4",
+            "content": "<p>\"I just wanted a razor that worked, but this blew me away! I rarely shop online, yet I’m honestly stunned. Instant smoothness, and my skin stays flawless for days. Absolutely nailed it!\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_gzKFDP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Group_193.png",
+            "column_size": "3",
+            "title": "Laëticia C.",
+            "heading_tag": "h4",
+            "content": "<p>\"I’ve always had really sensitive skin in that area, plagued by ingrown hairs and nicks… but this is gentle, leaves my skin smooth, and causes absolutely no reaction.\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_eWhUTz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Group_197.png",
+            "column_size": "3",
+            "title": "Carole Q.",
+            "heading_tag": "h4",
+            "content": "<p>“I thought laser was my only option, but thanks to this 2-in-1 razor, my skin is finally even and radiant – and the shave is completely pain-free!”</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RKU6Td": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Group_205.png",
+            "column_size": "3",
+            "title": "Julie M.",
+            "heading_tag": "h4",
+            "content": "<p>“Honestly, waxing was a nightmare… I’d come out feeling like I was on fire every time. With this razor from Lunia, it’s the exact opposite: quick, comfortable and effective. And the results last far longer than I expected, especially when I use their exfoliating glove beforehand. Highly recommend!”</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_NqW9f8",
+        "item_gzKFDP",
+        "item_eWhUTz",
+        "item_RKU6Td"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
   "order": [
     "image_with_text_overlay_yRYxUD",
-    "faq"
+    "logo_list_fk9abQ",
+    "custom_liquid_M9hJbn",
+    "image_with_text_overlay_HzxJa7",
+    "custom_liquid_mant4T",
+    "multi_column_t7xfXM"
   ]
 }
