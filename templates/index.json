@@ -331,6 +331,13 @@
             "title": "Secure payment",
             "content": "<p><strong>Accepted Payment Methods</strong></p><ul><li><strong>Bank cards:</strong> Visa, MasterCard, American Express</li><li><strong>PayPal, Apple Pay & Shop Pay: </strong>for fast, secure checkout</li></ul><p><strong>Security & Reliability</strong></p><ul><li><strong>Data encryption:</strong> All transactions are protected by 256-bit SSL encryption to keep your information safe</li><li><strong>Enhanced verification: </strong>Every purchase undergoes additional checks to prevent fraud</li></ul><p><strong>Any questions?</strong><br/><br/>Our customer service team is available 24/7 to help.<br/><br/><strong>Contact us at </strong><a><strong>contact@shop-lunia.com</strong></a></p><p><br/></p>"
           }
+        },
+        "collapsible_text_DkqJbL": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "30-day money-back guarantee",
+            "content": "<p><strong>30-day “Satisfaction guaranteed or your money back”</strong></p><p>If you’re not completely happy with your purchase, you may request a full refund within 30 days.</p><p><strong>Free replacement for manufacturing defects</strong></p><p>If the product is faulty, we’ll replace it at no extra cost.</p><p><strong>Dedicated support</strong></p><p>For any questions or issues, our customer service team is at your disposal by email or via our contact form.</p><p><strong>Returns</strong></p><p><strong>Return window:</strong>30 days from receipt<br/>You may return the product within 30 days, provided it’s in its original condition.</p><p><strong>Easy process</strong></p><p>Contact us by email or through our contact form, and we’ll guide you step by step.</p><p><strong>Packaging & condition</strong></p><p>The item must be in its original condition and, if possible, in its original packaging.</p><p><strong>Return shipping costs</strong></p><p>If the return is due to a defect or our error, we’ll cover the return postage. Otherwise, the customer may be responsible (see our Returns Policy).</p>"
+          }
         }
       },
       "block_order": [
@@ -347,7 +354,8 @@
         "collapsible_text_Q6efar",
         "collapsible_text_X4RTzQ",
         "collapsible_text_cUJJRg",
-        "collapsible_text_YQkQqW"
+        "collapsible_text_YQkQqW",
+        "collapsible_text_DkqJbL"
       ],
       "name": "Featured product",
       "settings": {
