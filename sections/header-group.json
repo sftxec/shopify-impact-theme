@@ -24,7 +24,7 @@
         "message_ffWHEP": {
           "type": "message",
           "settings": {
-            "text": "Free home delivery",
+            "text": "FREE HOME DELIVERY",
             "url": ""
           }
         },
@@ -38,7 +38,7 @@
         "message_kY6WHm": {
           "type": "message",
           "settings": {
-            "text": "2-year warranty",
+            "text": "2- YEAR WARRANTY",
             "url": ""
           }
         }
