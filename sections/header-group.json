@@ -61,6 +61,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        "/* Cacher le bloc de recherche */a[href=\"/search\"] {display: none !important;}"
+      ],
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
