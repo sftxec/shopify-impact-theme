@@ -17,13 +17,37 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "SPRING SPECIAL OFFER: UP TO 50% OFF",
+            "url": ""
+          }
+        },
+        "message_ffWHEP": {
+          "type": "message",
+          "settings": {
+            "text": "Free home delivery",
+            "url": ""
+          }
+        },
+        "message_fewh7d": {
+          "type": "message",
+          "settings": {
+            "text": "30-day satisfaction guarantee",
+            "url": ""
+          }
+        },
+        "message_kY6WHm": {
+          "type": "message",
+          "settings": {
+            "text": "2-year warranty",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_ffWHEP",
+        "message_fewh7d",
+        "message_kY6WHm"
       ],
       "settings": {
         "enable_sticky": false,
