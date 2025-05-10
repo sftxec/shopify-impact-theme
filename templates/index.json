@@ -269,40 +269,34 @@
             "max_width": 450
           }
         },
-        "description_hXNT9f": {
-          "type": "description",
+        "liquid_yUqpAx": {
+          "type": "liquid",
           "settings": {
-            "collapse_content": false
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_Uabntn\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <!-- Bloc de stock restant avec barre dynamique -->\n    <div class=\"stock-container\">\n      <span class=\"stock-text\">Only 6 LUNIA® razors left.\n\n<strong id=\"stock-count\"></strong></span>\n      <div class=\"stock-bar\">\n        <div class=\"stock-fill\" id=\"stock-fill\" style=\"width: 10%;\"></div>\n      </div>\n    </div>\n\n    <!-- Style -->\n    <style>\n      .stock-container {\n        font-family: 'Poppins', sans-serif;\n        font-size: 14px;\n        font-weight: 600;\n        color: #D80027;\n        text-align: left;\n        margin-top: 5px;\n      }\n\n      .stock-bar {\n        width: 120px;\n        height: 8px;\n        background: #FFD1D1;\n        border-radius: 4px;\n        margin-top: 4px;\n        position: relative;\n        overflow: hidden;\n      }\n\n      .stock-fill {\n        width: 10%; /* 10% pour 6 unités restantes */\n        height: 100%;\n        background: #D80027;\n        border-radius: 4px;\n        transition: width 0.5s ease-in-out;\n      }\n    </style>\n  </div>\n</div>"
           }
-        },
-        "variant_picker_XKQVVk": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_kzG73J": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "buy_buttons_bGkU4h": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
+            "atc_button_background": "#36ba45",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
         },
-        "pickup_availability_QXmrrQ": {
-          "type": "pickup_availability",
-          "settings": {}
+        "liquid_DxpNQ3": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.icon-list-custom {\n    display: flex;\n    flex-wrap: wrap;\n    list-style: none;\n    justify-content: center;\n    margin: 0;\n    gap: 8px;\n    padding: 0;\n    margin-top: -0.5rem;\n    margin-bottom: -0.5rem;\n}\n</style>\n\n<ul class=\"icon-list-custom\" role=\"list\">\n    {% assign enabled_payment_types = 'visa,master,cartes_bancaires, american_express,shopify_pay, paypal,apple_pay' | remove: ' ' | split: ',' %}\n    {% for type in enabled_payment_types %}\n        <li>{{ type | payment_type_svg_tag: class: 'icon-svg' }}</li>\n    {%- endfor -%}\n</ul>"
+          }
+        },
+        "liquid_TPngnT": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"features-wrapper\">\n  <div class=\"features-container\">\n    <div class=\"feature-item\">\n      <div class=\"icon-wrapper\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0891/4871/9429/files/NOUVEAU-SHIPPING1.svg?v=1744585896\" alt=\"Free Delivery Icon\">\n      </div>\n      <div class=\"text-wrapper\">\n        <p class=\"feature-title\">Free shipping</p>\n        <p class=\"feature-subtitle\">5–7 working days</p>\n      </div>\n    </div>\n\n    <div class=\"feature-item\">\n      <div class=\"icon-wrapper\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0891/4871/9429/files/NOUVEAU-check-shield.svg?v=1744586491\" alt=\"Warranty Icon\">\n      </div>\n      <div class=\"text-wrapper\">\n        <p class=\"feature-title\">Warranty</p>\n        <p class=\"feature-subtitle\">2 years included</p>\n      </div>\n    </div>\n\n    <div class=\"feature-item\">\n      <div class=\"icon-wrapper\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0891/4871/9429/files/NOUVEAU-RETOUR.svg?v=1744585755\" alt=\"Worry-Free Trial Icon\">\n      </div>\n      <div class=\"text-wrapper\">\n        <p class=\"feature-title\">Satisfaction guaranteed</p>\n        <p class=\"feature-subtitle\">30-day trial, no strings attached</p>\n      </div>\n    </div>\n\n    <div class=\"feature-item\">\n      <div class=\"icon-wrapper\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0891/4871/9429/files/NOUVEAU-support.svg?v=1744585755\" alt=\"After-Sale Service Icon\">\n      </div>\n      <div class=\"text-wrapper\">\n        <p class=\"feature-title\">Customer service from UK</p>\n        <p class=\"feature-subtitle\">Available 7 days a week</p>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .features-wrapper {\n    display: flex;\n    justify-content: center;\n  }\n\n  .features-container {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 20px;\n    max-width: 600px; /* limits max width */\n  }\n\n  .feature-item {\n    width: calc(50% - 10px);\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n\n  .icon-wrapper {\n    width: 40px;\n    height: 40px;\n    background-color: #F5F7F8;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-shrink: 0;\n  }\n\n  .icon-wrapper img {\n    width: 22px;\n    height: 22px;\n    display: block;\n  }\n\n  .text-wrapper {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .feature-title {\n    font-weight: 700;\n    color: #242424;\n    margin: 0;\n    font-size: 14px;\n  }\n\n  .feature-subtitle {\n    font-weight: 400;\n    color: #424242;\n    margin: 0;\n    font-size: 12px;\n  }\n\n  @media (max-width: 480px) {\n    .feature-item {\n      width: calc(50% - 10px);\n    }\n\n    .feature-title {\n      font-size: 12px;\n    }\n\n    .feature-subtitle {\n      font-size: 10px;\n    }\n\n    .icon-wrapper {\n      width: 36px;\n      height: 36px;\n    }\n\n    .icon-wrapper img {\n      width: 20px;\n      height: 20px;\n    }\n  }\n</style>"
+          }
         }
       },
       "block_order": [
@@ -311,11 +305,10 @@
         "price_wgCjjL",
         "separator_hkiEh8",
         "image_tKXJBa",
-        "description_hXNT9f",
-        "variant_picker_XKQVVk",
-        "quantity_selector_kzG73J",
+        "liquid_yUqpAx",
         "buy_buttons_bGkU4h",
-        "pickup_availability_QXmrrQ"
+        "liquid_DxpNQ3",
+        "liquid_TPngnT"
       ],
       "name": "Featured product",
       "settings": {
