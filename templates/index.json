@@ -357,6 +357,10 @@
         "collapsible_text_YQkQqW",
         "collapsible_text_DkqJbL"
       ],
+      "custom_css": [
+        ".product-info__badge-list .badge--on-sale {color: #1d201d !important; background-color: #fec6c5 !important;}",
+        ".product-info__badge-list .badge--on-sale * {color: #1d201d !important;}"
+      ],
       "name": "Featured product",
       "settings": {
         "full_width": true,
@@ -364,7 +368,7 @@
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
         "enable_image_zoom": false,
