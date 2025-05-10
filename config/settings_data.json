@@ -36,7 +36,7 @@
     "product_color_display": "swatch",
     "product_info_alignment": "start",
     "cart_icon": "tote_bag",
-    "favicon": "shopify://shop_images/logofondblanc.png",
+    "favicon": "shopify://shop_images/logo.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": []
