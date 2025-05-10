@@ -317,6 +317,20 @@
             "title": "What’s included in the LUNIA pack?",
             "content": "<p>The <strong>Lunia pack</strong> includes everything you need for a complete, convenient experience:<br/></p><ul><li><strong>Body trimming head:</strong>Designed to swiftly remove hair from larger areas.</li><li><strong>Precision head:</strong> Perfect for delicate zones and achieving a flawless finish.</li><li><strong>Included accessories:</strong></li></ul><p>Attachment comb</p><p>Charging cable</p><p>Cleaning brush</p><p>User manual</p><ul><li>Plus your complimentary exfoliating glove!</li></ul><p>An easy, precise treatment tailored to every area of your body!</p>"
           }
+        },
+        "collapsible_text_cUJJRg": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Delivery & Returns",
+            "content": "<p><strong>Delivery regions: </strong>UK, United States, Canada and Australia only (English-speaking countries).</p><p><strong>Standard Delivery</strong><br/>Delivery timeframe: 5–7 working days.</p><p><strong>Important details:</strong></p><ul><li> 24–48 hours for verification, quality control and packaging</li><li>all times are estimates and may vary due to logistical factors or exceptional circumstances</li></ul><p><strong>Order tracking:</strong></p><ul><li><strong>Where to find it:</strong> track your order directly on our website</li><li><strong>Need your tracking number? </strong>Email us or submit a request via our contact form, and we’ll send it over promptly!</li></ul><p></p>"
+          }
+        },
+        "collapsible_text_YQkQqW": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Secure payment",
+            "content": "<p><strong>Accepted Payment Methods</strong></p><ul><li><strong>Bank cards:</strong> Visa, MasterCard, American Express</li><li><strong>PayPal, Apple Pay & Shop Pay: </strong>for fast, secure checkout</li></ul><p><strong>Security & Reliability</strong></p><ul><li><strong>Data encryption:</strong> All transactions are protected by 256-bit SSL encryption to keep your information safe</li><li><strong>Enhanced verification: </strong>Every purchase undergoes additional checks to prevent fraud</li></ul><p><strong>Any questions?</strong><br/><br/>Our customer service team is available 24/7 to help.<br/><br/><strong>Contact us at </strong><a><strong>contact@shop-lunia.com</strong></a></p><p><br/></p>"
+          }
         }
       },
       "block_order": [
@@ -331,7 +345,9 @@
         "liquid_TPngnT",
         "liquid_UchGMy",
         "collapsible_text_Q6efar",
-        "collapsible_text_X4RTzQ"
+        "collapsible_text_X4RTzQ",
+        "collapsible_text_cUJJRg",
+        "collapsible_text_YQkQqW"
       ],
       "name": "Featured product",
       "settings": {
