@@ -1,1 +1,110 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "image_with_text_overlay_DLMLYw": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_J9RVXn": {
+          "type": "heading",
+          "settings": {
+            "text": "The Lunia Story: Softness as the New Standard",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Xc6LhQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Because you deserve better than a shave that irritates your skin.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_J9RVXn",
+        "richtext_Xc6LhQ"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_11_mai_2025_14_32_26.png",
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_11_mai_2025_14_32_26.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_jGtDUQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BAVGfP": {
+          "type": "heading",
+          "settings": {
+            "text": "✨ Once upon a time… irritated skin",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qGLfE9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>It all began with a familiar feeling: that tight, irritated sensation after yet another shave. The existing solutions? Far too harsh, outrageously expensive, or simply ineffective. That’s when the idea for Lunia took root: what if shaving could be synonymous with gentleness, efficiency and even pleasure?</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BAVGfP",
+        "richtext_qGLfE9"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_rGb6ah": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_DLMLYw",
+    "rich_text_jGtDUQ",
+    "image_with_text_overlay_rGb6ah"
+  ]
+}
