@@ -33,6 +33,8 @@
     "text_font": "poppins_n4",
     "show_page_transition": true,
     "heading_apparition": "split_fade",
+    "show_secondary_image": false,
+    "discount_mode": "percentage",
     "product_color_display": "swatch",
     "product_info_alignment": "start",
     "cart_icon": "tote_bag",
