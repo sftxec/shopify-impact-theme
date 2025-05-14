@@ -93,11 +93,159 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/harli-marten-n7a2OJDSZns-unsplash.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_xPLAeV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PaBmij": {
+          "type": "heading",
+          "settings": {
+            "text": "💡 Innovation for your skin",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_jFXbWh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At Lunia, we’ve reimagined women’s shaving with our revolutionary 2-in-1 razor. Contoured to follow your body’s curves, it delivers a pain-free, irritation-free shave without compromise. Say goodbye to ingrown hairs, redness and nicks—hello to smooth, soothed skin in a single pass.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PaBmij",
+        "richtext_jFXbWh"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_RjQdfq": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/fabian-moller-gI7zgb80QWY-unsplash.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_GmXbrC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pcaj4p": {
+          "type": "heading",
+          "settings": {
+            "text": "🌈 Our mission: to elevate your everyday",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_AknF7z": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our ambition? To turn a often-dreaded routine into a moment of well-being. With Lunia, shaving becomes a gentle interlude—a simple ritual that unveils your skin’s natural beauty. Because every woman deserves to feel confident in her own skin, every single day.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pcaj4p",
+        "richtext_AknF7z"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_rebrnN": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/davies-designs-studio-G-6kwVnClsE-unsplash.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_b4QXP7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wzXbcM": {
+          "type": "heading",
+          "settings": {
+            "text": "🤝 An engaged community",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_FRp4BY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Since day one, so many of you have trusted us and shared your experiences. Your feedback, testimonials and enthusiasm are our greatest reward. Together, we’re building a supportive community where every woman finds her place and thrives.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wzXbcM",
+        "richtext_FRp4BY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_QMcYJa": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/vonecia-carswell-0aMMMUjiiEQ-unsplash.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     }
   },
@@ -105,6 +253,12 @@
     "main",
     "image_with_text_overlay_DLMLYw",
     "rich_text_jGtDUQ",
-    "image_with_text_overlay_rGb6ah"
+    "image_with_text_overlay_rGb6ah",
+    "rich_text_xPLAeV",
+    "image_with_text_overlay_RjQdfq",
+    "rich_text_GmXbrC",
+    "image_with_text_overlay_rebrnN",
+    "rich_text_b4QXP7",
+    "image_with_text_overlay_QMcYJa"
   ]
 }
