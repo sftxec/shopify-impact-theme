@@ -109,9 +109,9 @@
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"custom-features-section\" style=\"background-color:#FFFFFF; text-align: center; padding-bottom: 0px;\">\n  \n  <!-- Titre -->\n  <h3 style=\"font-size: 22px; font-weight: 800;\">\n    Why choose Lunia ?\n  </h3>",
+        "liquid": "<div class=\"custom-features-section\" style=\"background-color:#FFFFFF; text-align: center; padding-bottom: 24px;\">\n  \n  <!-- Titre -->\n  <h3 style=\"font-size: 22px; font-weight: 800;\">\n    Why choose Lunia ?\n  </h3>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
