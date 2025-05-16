@@ -257,6 +257,7 @@
         },
         "image_tKXJBa": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/printempsvrai.png",
             "alignment": "start",
