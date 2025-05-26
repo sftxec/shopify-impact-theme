@@ -264,16 +264,16 @@
             "max_width": 450
           }
         },
+        "price_N83NEL": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
         "liquid_yUqpAx": {
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_Uabntn\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <div class=\"stock-urgency-wrapper\" id=\"stock-urgency-wrapper-unique\">\n      <span class=\"stock-urgency-message\" id=\"stock-urgency-message-unique\">Only 6 LUNIA® razors left.</span>\n      <div class=\"stock-urgency-bar\">\n        <div class=\"stock-urgency-fill\" id=\"stock-urgency-fill-unique\" style=\"width: 15%; position: relative;\">\n          <div class=\"stock-urgency-dot\" id=\"stock-urgency-dot-unique\" style=\"right: 0;\"></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .stock-urgency-wrapper {\n    font-family: 'Poppins', sans-serif;\n    font-size: 14px;\n    font-weight: 600;\n    color: #D80027;\n    text-align: left;\n    margin-top: 5px;\n  }\n\n  .stock-urgency-bar {\n    width: 120px;\n    height: 8px;\n    background: #FFD1D1;\n    border-radius: 4px;\n    margin-top: 4px;\n    position: relative;\n    overflow: visible;\n  }\n\n  .stock-urgency-fill {\n    height: 100%;\n    background: #D80027;\n    border-radius: 4px;\n    transition: width 0.5s ease-in-out;\n    position: relative;\n  }\n\n  .stock-urgency-dot {\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    width: 10px;\n    height: 10px;\n    background-color: #D80027;\n    border-radius: 50px;\n    box-shadow: 0 0 6px rgba(216, 0, 39, 0.7);\n    animation: stock-urgency-pulseGlow 1.5s infinite;\n  }\n\n  @keyframes stock-urgency-pulseGlow {\n    0%, 100% {\n      opacity: 1;\n      transform: translateY(-50%) scale(1);\n      box-shadow: 0 0 6px rgba(216, 0, 39, 0.7), 0 0 8px rgba(216, 0, 39, 0.5);\n    }\n    50% {\n      opacity: 0.5;\n      transform: translateY(-50%) scale(1.3);\n      box-shadow: 0 0 8px rgba(216, 0, 39, 0.9), 0 0 12px rgba(216, 0, 39, 0.7);\n    }\n  }\n</style>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    const wrapper = document.getElementById('stock-urgency-wrapper-unique');\n    const fill = document.getElementById('stock-urgency-fill-unique');\n    const dot  = document.getElementById('stock-urgency-dot-unique');\n    const message = document.getElementById('stock-urgency-message-unique');\n\n    const observer = new IntersectionObserver(function(entries) {\n      entries.forEach(entry => {\n        if (entry.isIntersecting) {\n          setTimeout(function() {\n            // légère décrue : de 15% à 14%\n            fill.style.width = '14%';\n            // le dot reste parfaitement collé au bout du fill\n            dot.style.right = '0';\n            message.innerText = 'Only 5 LUNIA® razors left.';\n          }, 2000);\n        }\n      });\n    }, { threshold: 0.5 });\n\n    observer.observe(wrapper);\n  });\n</script>"
-          }
-        },
-        "kaching_bundles_app_block_CNYPAX": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
           }
         },
         "buy_buttons_bGkU4h": {
@@ -352,8 +352,8 @@
         "liquid_QAABNa",
         "separator_hkiEh8",
         "image_tKXJBa",
+        "price_N83NEL",
         "liquid_yUqpAx",
-        "kaching_bundles_app_block_CNYPAX",
         "buy_buttons_bGkU4h",
         "liquid_DxpNQ3",
         "liquid_TFJM6t",
