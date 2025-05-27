@@ -39,8 +39,12 @@
         "show_shipping_text": false,
         "show_view_cart_button": false,
         "show_checkout_button": true,
-        "recommendations_title": "Trending this month",
-        "products": [],
+        "recommendations_title": "You might also like",
+        "products": [
+          "luniabag-mesh-pouch-for-your-lunia-razor",
+          "luniacrystal®-crystal-smooth-hair-eraser",
+          "luniaglove®-exfoliating-glove-for-ingrown-hairs-dead-skin"
+        ],
         "product_card_background": "#f2f2f2",
         "product_card_text_color": ""
       }
