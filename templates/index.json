@@ -11,25 +11,6 @@
   "sections": {
     "image_with_text_overlay_yRYxUD": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_XBNM4i": {
-          "type": "heading",
-          "settings": {
-            "text": "Finally, a shave that’s gentle on your skin.",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_QdzkGp": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Painful waxing and laser treatments that break the bank have finally come to an end.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_XBNM4i",
-        "richtext_QdzkGp"
-      ],
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -42,7 +23,20 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_DycPaK": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"shopify-section shopify-section--custom-liquid\" style=\"margin-bottom: 48px; width: 100%;\">\n  <style>\n    .custom-section {\n      /* Fond et couleur hérités du thème */\n      padding-top: 24px;\n      padding-bottom: 4px;\n      font-family: 'Poppins', sans-serif;\n      text-align: center;\n      width: 100%;\n      max-width: 100%;\n      margin: 0 auto;\n      border-radius: 10px;\n    }\n\n    .custom-section .header {\n      font-size: 14px;\n      /* Hérite de la couleur texte du thème */\n      font-weight: bold;\n      text-transform: uppercase;\n      margin-bottom: 4px;\n    }\n\n    .custom-section .title {\n      font-size: 24px;\n      font-weight: 700;\n      line-height: 1.3;\n      margin-bottom: 10px;\n    }\n\n    .custom-section .description {\n      font-size: 16px;\n      font-weight: 500;\n      line-height: 1.5;\n    }\n  </style>\n\n  <div class=\"custom-section\">\n    <div class=\"title\">Finally, a shave that’s gentle on your skin !</div>\n    <div class=\"description\">\nPainful waxing and laser treatments that break the bank have finally come to an end.    </div>\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "logo_list_fk9abQ": {
@@ -391,6 +385,7 @@
   },
   "order": [
     "image_with_text_overlay_yRYxUD",
+    "custom_liquid_DycPaK",
     "logo_list_fk9abQ",
     "custom_liquid_M9hJbn",
     "image_with_text_overlay_HzxJa7",
